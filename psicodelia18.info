@@ -1,0 +1,20 @@
+
+name = psicodelia18
+
+description = Tema exclusivo para o site Psicodelia.org
+package = Core
+version = VERSION
+core = 7.x
+
+regions[topo] = Topo
+regions[content] = Content
+regions[extras] = Extras
+regions[rodape1] = Rodape 1
+regions[rodape2] = Rodape 2
+
+base theme = bootstrap
+
+stylesheets[all][] = css/geral.css
+
+scripts[] = js/jquery.sticky-kit.min.js
+scripts[] = js/geral.js
