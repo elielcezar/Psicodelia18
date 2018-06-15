@@ -10,10 +10,14 @@
 
 <meta name="google-site-verification" content="kF7peCDsX3soU9nTnEJs1JEPgi6pPnDT4KdzOrAHvFI" />
 
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+<!--link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet"-->
 
-<script src="https://use.fontawesome.com/fa0f5ca587.js"></script>
+<!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
 <?php print $styles; ?>

@@ -6,11 +6,12 @@ package = Core
 version = VERSION
 core = 7.x
 
-regions[topo] = Topo
+regions[header] = Topo
 regions[content] = Content
-regions[extras] = Extras
-regions[rodape1] = Rodape 1
-regions[rodape2] = Rodape 2
+regions[extras1] = Extras 1
+regions[extras2] = Extras 2
+regions[extras3] = Extras 3
+regions[rodape] = Rodape
 
 base theme = bootstrap
 
