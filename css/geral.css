@@ -201,6 +201,7 @@ header .main-menu {
   margin: 10px 0 10px -17px;
   background: #fff;
   height: 46px;
+  background: #f9f9f9;
 }
 
 header .main-menu .menu-item {
@@ -315,7 +316,7 @@ header #block-custom-search-blocks-1 .form-actions {
 
 header .redes-sociais {
   position: absolute;
-  right: 300px;
+  right: 260px;
   top: 20px;
   -webkit-transform: skew(25deg);
   -moz-transform: skew(25deg);
@@ -331,6 +332,11 @@ header .redes-sociais a {
 
 header .redes-sociais a:hover {
   color: #eb1940;
+}
+
+header #block-menu-menu-noticias {
+  float: left;
+  width: 100%;
 }
 
 header .menu.nav {
@@ -395,9 +401,8 @@ header #menu-artistas {
 header #menu-artistas li {
   float: left;
   margin-right: 1%;
-  background: #eb1940;
   padding-left: 25px;
-  padding-right: 25px;
+  padding-right: 7px;
   border-bottom: 2px solid #eb1940;
   -webkit-transform: skew(0deg);
   -moz-transform: skew(0deg);
@@ -405,13 +410,13 @@ header #menu-artistas li {
 }
 
 header #menu-artistas li:hover {
-  background: #1e1e22;
+  background: #eb1940;
 }
 
 header #menu-artistas li a {
   color: #fff;
   padding-top: 18px;
-  padding-bottom: 14px;
+  padding-bottom: 20px;
   -webkit-transform: skew(25deg);
   -moz-transform: skew(25deg);
   -o-transform: skew(25deg);
@@ -434,6 +439,11 @@ header #menu-artistas li a i {
 }
 
 /*--- CONTEUDO ---------------------------------------------------------------------------------------------------*/
+#principal {
+  width: 100%;
+  float: left;
+}
+
 #principal h1 {
   font-size: 52px;
   letter-spacing: -2px;
@@ -555,7 +565,7 @@ header #menu-artistas li a i {
   padding: 25px 0 15px 0;
 }
 
-.modal .modal-header h1 {
+.modal .modal-header h2 {
   font-size: 26px;
 }
 
@@ -1010,8 +1020,6 @@ header #menu-artistas li a i {
 
 .node-type-page #principal,
 .node-type-story #principal {
-  float: left;
-  width: 100%;
   position: relative;
 }
 
@@ -1390,11 +1398,6 @@ header #menu-artistas li a i {
   display: none;
 }
 
-.page-artistas #principal {
-  float: left;
-  width: 100%;
-}
-
 .page-artistas #principal h1 {
   margin: 50px 0 75px 0;
   text-align: center;
@@ -1447,16 +1450,16 @@ header #menu-artistas li a i {
   transform: scale(1.75);
 }
 
-/*--- PAGINA DE UM ARTISTA ----------------------------*/
-.node-type-artista {
-  /* form de pedido de booking / contratacao */
-  /*#contrate{
-    .webform-component--artista{
-      display: none;
-    }
-  } */
+.page-artistas .extras1, .page-artistas .extras2, .page-artistas .extras3 {
+  display: none;
 }
 
+.page-artistas footer {
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+/*--- PAGINA DE UM ARTISTA ----------------------------*/
 .node-type-artista header #menu-artistas {
   display: block;
 }
@@ -1467,8 +1470,6 @@ header #menu-artistas li a i {
 
 .node-type-artista #principal {
   margin-top: 50px;
-  float: left;
-  width: 100%;
 }
 
 .node-type-artista #principal h1.page-header {
@@ -1590,8 +1591,6 @@ header #menu-artistas li a i {
 
 /*--- ENVIE UMA NOTICIA --------------------------------------------------------------------------------*/
 .page-node-8677 #principal {
-  width: 100%;
-  float: left;
   margin-top: 100px;
 }
 
@@ -1787,6 +1786,10 @@ header #menu-artistas li a i {
   padding: 100px 0;
   background: #f5545e;
   color: #fff;
+}
+
+.extras2 .container {
+  max-width: 1080px;
 }
 
 .extras2 h2 {

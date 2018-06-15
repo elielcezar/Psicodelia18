@@ -40,6 +40,24 @@
   </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="orcamento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h2 class="modal-title" id="myModalLabel"><i class="far fa-address-book"></i> CONTATO PARA ORÇAMENTO</h2>
+          </div>
+      <div class="modal-body">
+         <?php
+            $block = module_invoke('webform', 'block_view', 'client-block-8746');
+            print render($block['content']);
+        ?>
+        </div>
+    </div>
+  </div>
+</div>
+
 <?php include "footer.tpl.php"; ?>
 
 <script type="text/javascript">
