@@ -785,7 +785,7 @@ header #menu-artistas li a i {
 .front #principal .destaques {
   min-height: 450px;
   padding: 50px 0;
-  background: #1e1e22;
+  background: #111;
 }
 
 .front #principal .destaques .destaque {
@@ -894,9 +894,9 @@ header #menu-artistas li a i {
 }
 
 .front #principal .destaques .view-content:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .front #principal .mais-noticias .titulo a {
@@ -945,9 +945,9 @@ header #menu-artistas li a i {
 }
 
 .front #principal .mais-noticias .view-mais-noticias-18 .views-field-field-imagem:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .front #principal .mais-noticias .view-mais-noticias-18 .views-field-field-assunto {
@@ -1543,6 +1543,10 @@ header #menu-artistas li a i {
   display: none;
 }
 
+.page-search #principal {
+  padding-top: 50px;
+}
+
 .page-search #principal #search-form {
   padding: 40px 50px 25px 50px;
   background: #f5f5f5;
@@ -1627,9 +1631,9 @@ header #menu-artistas li a i {
 }
 
 .page-artistas #principal .view-artistas .views-row:hover img {
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
   opacity: .2;
 }
 
@@ -1763,6 +1767,10 @@ header #menu-artistas li a i {
 }
 
 /*--- CONTATO ------------------------------------------------------------------------------------------*/
+.page-node-8675 #principal {
+  padding-top: 50px;
+}
+
 .page-node-8675 #principal .container {
   max-width: 780px;
 }
@@ -2002,7 +2010,7 @@ header #menu-artistas li a i {
 .extras2 {
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
   background: #f5545e;
   color: #fff;
 }
@@ -2039,6 +2047,7 @@ header #menu-artistas li a i {
 .extras2 #block-webform-client-block-8676 .messages.error {
   position: absolute;
   top: -50px;
+  z-index: 50;
 }
 
 .extras2 #block-webform-client-block-8676 .node-webform {

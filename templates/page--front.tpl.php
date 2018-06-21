@@ -42,6 +42,8 @@
 
 	              		      <?php print views_embed_view('mais_noticias_18', 'default'); ?>
 
+	              		      <?php print render($page['content']); ?>
+
 	              </div>
 
 							</div>

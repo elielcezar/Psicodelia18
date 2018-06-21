@@ -737,7 +737,7 @@ header{
     .destaques{
         min-height: 450px;
         padding: 50px 0;
-        background: $preto-bg;
+        background: #111;
 
         .destaque{
             padding: 0 0 0 10px;
@@ -830,9 +830,9 @@ header{
             img{transition: all .2s;}
 
             &:hover img{
-                -moz-transform: scale(1.1);
-                -webkit-transform: scale(1.1);
-                transform: scale(1.1);
+                -moz-transform: scale(1.25);
+                -webkit-transform: scale(1.25);
+                transform: scale(1.25);
             }
         }
     }
@@ -880,9 +880,9 @@ header{
                 }
 
                 &:hover img{
-                    -moz-transform: scale(1.1);
-                    -webkit-transform: scale(1.1);
-                    transform: scale(1.1);
+                    -moz-transform: scale(1.25);
+                    -webkit-transform: scale(1.25);
+                    transform: scale(1.25);
                 }
             }
             .views-field-field-assunto{
@@ -1323,6 +1323,8 @@ header{
     display: none;
   }
     #principal{
+      padding-top: 50px;
+
       #search-form{
         padding: 40px 50px 25px 50px;
         background: #f5f5f5;
@@ -1408,9 +1410,9 @@ header{
         /* efeito on hover */
         &:hover{
           img{
-              -moz-transform: scale(1.5);
-              -webkit-transform: scale(1.5);
-              transform: scale(1.5);
+              -moz-transform: scale(1.25);
+              -webkit-transform: scale(1.25);
+              transform: scale(1.25);
               opacity: .2;
           }
           .views-field-title a{
@@ -1535,6 +1537,8 @@ header{
 .page-node-8675{
 
   #principal{
+
+    padding-top: 50px;
 
     .container{
       max-width: 780px;
@@ -1772,7 +1776,7 @@ header{
 .extras2{
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
   background: #f5545e;
   color: #fff;
 
@@ -1803,6 +1807,7 @@ header{
     .messages.error{
       position: absolute;
       top: -50px;
+      z-index: 50;
     }
 
     .node-webform{
